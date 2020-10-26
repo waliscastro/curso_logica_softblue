@@ -1,0 +1,18 @@
+início {  
+    //Algoritmo: ´Tabuada
+    //Curso: Lógica de Programação Softblue
+    //Professor: Carlos Tosin
+    //Aluno - Autor: Walison John de Castro - OUT/2020
+    //Descrição: Algoritmo criado para calcular a tabuada de um número definido pelo usúario.
+
+
+    inteiro: t;
+    leia("Qual o número que deseja calcular a taboada? ",t);
+    
+    inteiro: n;
+    
+    para n de 1 até 10 passo 1 {
+        
+        escreva ( t + "X" + n + "=" + (t*n));
+    }
+}

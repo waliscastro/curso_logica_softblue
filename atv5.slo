@@ -1,0 +1,26 @@
+início {
+    //Algoritmo: Estágio de vida
+    //Curso: Lógica de Programação Softblue
+    //Professor: Carlos Tosin
+    //Aluno - Autor: Walison John de Castro - OUT/2020
+    //Descrição: Algoritmo criado para verificar o estágio de vida do usuário.
+    
+    inteiro: idade;
+    leia("Qual sua idade?", idade);
+    
+    caractere: categoria;
+    
+    se (idade < 0) {
+        categoria = "Idade inválida";
+    } senão se (idade < 13) {
+        categoria = "Criança";
+    } senão se (idade < 18) {
+        categoria = "Adolescência";
+    } senão se (idade < 50) {
+        categoria = "Adulta";
+    } senão se (idade > 60) {
+        categoria = "Melhor Idade ;)";
+    }
+    escreva ("De acordo com sua idade (",idade, ") você está na fase ", categoria, " da sua vida!");
+
+ }

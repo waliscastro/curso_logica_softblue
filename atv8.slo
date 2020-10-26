@@ -1,0 +1,29 @@
+início {
+     
+    //Algoritmo: Cálculo de média 2
+    //Curso: Lógica de Programação Softblue
+    //Professor: Carlos Tosin
+    //Aluno - Autor: Walison John de Castro - OUT/2020
+    //Descrição: Algoritmo criado para calcular a de números definidos pelo usúario.
+    
+    
+    real: nota;
+    real: media;
+    inteiro: n;
+    inteiro: qtd;
+    real: soma;
+    
+    leia("Quantas notas deseja calcular?", qtd);
+    n = 1;
+    soma = 0;
+    
+    enquanto(n <= qtd) {
+         leia("Qual o valor da NOTA " + n + "?", nota);
+         soma = soma + nota;
+         n = n +1;
+    }
+    
+    media = soma / qtd;
+    escreva("A média é: " + media);
+
+}

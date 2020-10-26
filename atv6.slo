@@ -1,0 +1,25 @@
+início {    
+    //Algoritmo: ´Nuúmeros pares
+    //Curso: Lógica de Programação Softblue
+    //Professor: Carlos Tosin
+    //Aluno - Autor: Walison John de Castro - OUT/2020
+    //Descrição: Algoritmo criado para verificar os números pares de um intervalo definido pelo usuário..
+    
+    inteiro: min;
+    inteiro: max;
+    inteiro: n;
+    
+    leia ("Defina o valor incial:", min);
+    leia ("Defina o valor final:", max);
+    escreva("Os números pares são: ");    
+
+    n = min;
+   
+     enquanto (n <= max) {    
+         se (n % 2 == 0) {
+             escreva (n); 
+      }
+     n = n + 1;
+    }
+    
+}

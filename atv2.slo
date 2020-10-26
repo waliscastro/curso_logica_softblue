@@ -1,0 +1,25 @@
+início {
+    //Algoritmo: Cálculo de juros
+    //Curso: Lógica de Programação Softblue
+    //Professor: Carlos Tosin
+    //Aluno - Autor: Walison John de Castro - OUT/2020
+    
+    //Descrição: Algoritmo criado para fazer o cálculo de juros baseando em valores inseridos pelo usuário.
+    
+    
+    real: fv;
+    real: pv;
+    real: i;
+    real: n;
+
+    
+   leia("Qual o valor atual do produto? ", pv);
+   leia("Qual o valor da Taxa? ", i);
+   leia("Qual o tempo de pagamento? ", n);
+   
+   fv = pv * pot(1 + i / 100, n);
+
+   
+   escreva("O valor futuro, com juros é ", fv);
+   escreva("O valor acrescido ao valor atual é: €", (fv - pv) );
+}

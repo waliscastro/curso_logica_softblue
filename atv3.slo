@@ -1,0 +1,17 @@
+início {
+    //Algoritmo: Conversor de temperatura
+    //Curso: Lógica de Programação Softblue
+    //Professor: Carlos Tosin
+    //Aluno - Autor: Walison John de Castro - OUT/2020
+    
+    //Descrição: Algoritmo criado para realizar a conversão de Fahrenheit para Celsius.
+    
+    real: tf;
+    leia("Qual a temperatura a ser convertida? ", tf);
+    
+    real: tc;    
+    tc = (tf - 32) / 9 * 5;
+    
+    escreva("A temperatura atual em graus Celsius é: ", tc, "º");
+    
+}

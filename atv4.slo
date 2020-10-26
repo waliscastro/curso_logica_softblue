@@ -1,0 +1,31 @@
+início {
+    //Algoritmo: Resolução de equações de 2º grau
+    //Curso: Lógica de Programação Softblue
+    //Professor: Carlos Tosin
+    //Aluno - Autor: Walison John de Castro - OUT/2020
+    
+    //Descrição: Algoritmo criado para resolução de equações de 2º grau.
+    
+    
+    real: a;
+    real: b;
+    real: c;
+    real: delta;
+    real: x1;
+    real: x2;
+    
+    escreva("Bem vindo ao solucionador de equações! Obs: Quando a raiz quadrada de DELTA for negativa o resultado será NaN, em caso de equações incompletas substitua o valor ausente por . Aproveite ;)");
+    leia("Digite o valor de A: ", a);
+    leia("Digite o valor de B: ", b);
+    leia("Digite o valor de C: ", c);
+    
+    
+    delta = pot(b,2) - 4 * a * c;
+    
+    x1 = (-b + rad(delta)) / (2 * a);
+    x2 = (-b - rad(delta)) / (2 * a);
+    
+    escreva("O resultado para x1 é: ", x1, " e o resultado para x2 é: ", x2);
+    
+}
+

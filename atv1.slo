@@ -1,0 +1,24 @@
+início {
+    
+    //Algoritmo: Cálculo de médias
+    //Curso: Lógica de Programação Softblue
+    //Professor: Carlos Tosin
+    //Aluno - Autor: Walison John de Castro - OUT/2020
+    
+    //Descrição: Algoritmo criado para simplificar o cálculo de média baseado em notas de alunos, utlizando entrada e saidade de dados.
+    
+    caractere: nome;
+    real: nota1;
+    real: nota2;
+    real: nota3;
+    
+    leia("Qual o nome do Aluno?", nome);
+    leia("Digite o valor da primeira nota: ", nota1);
+    leia("Digite o valor da segunda nota: ", nota2);
+    leia("Digite o valor da terceira nota: ", nota3);
+    
+    real: media;
+    media = (nota1 + nota2 + nota3) / 3;
+    
+    escreva("A média do Aluno " + nome + " é " + media);
+}
